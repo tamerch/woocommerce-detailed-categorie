@@ -1,0 +1,35 @@
+/* Specific list for parts */
+table.sortable {
+	width: 100%;float: left;
+	border-collapse: collapse;
+	margin-bottom: 1em;
+}
+
+.sortable tr.odd {background-color: #111;}
+.sortable tr.even {background-color: #222;}
+.sortable tbody tr td a img {width: 30px; height: 30px;}
+.sortable td {vertical-align: middle;border:1px dotted #333;}
+.term-description p img {width: 100%;}
+.sortable td.thumbnails-table {width: 30px;}
+.sortable td.price-table {width: 70px;text-align: center;}
+.sortable td.title-table {padding-left:1em;}
+.sortable td.sku-table {padding-left:1em;width: 50px;}
+.sortable thead tr th {background-color:#666;text-align: center;vertical-align: middle;border:1px dotted #333;}
+.sortable thead tr th a {color:#BBB !important;}
+.sortable thead tr {height:30px;}
+
+.term-image {width: 100%; text-align: center;}
+.term-image img {width: 100%;}
+
+.woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce #respond input#submit.alt, .woocommerce #content input.button.alt, .woocommerce-page a.button.alt, .woocommerce-page button.button.alt, .woocommerce-page input.button.alt, .woocommerce-page #respond input#submit.alt, .woocommerce-page #content input.button.alt {
+	background-image: url(../images/add_to_shopping_cart_32x32.png) !important;
+	background-repeat: no-repeat !important;
+	width: 32px;
+	height: 32px;
+	border: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	font-size: 0em;
+	float: left;
+}
