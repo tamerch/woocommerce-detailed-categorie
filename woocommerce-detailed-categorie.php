@@ -5,7 +5,7 @@ Plugin URI:
 Description: WooCommerce plugin for detailed product on specified categorie
 Author: Samuel Boutron
 Author URI: samuel.boutron@gmail.com
-Version: 1.2
+Version: 1.0.351204
 
 	Copyright: © 2012 Samuel Boutron (email : samuel.boutron@gmail.com)
 	License: GNU General Public License v3.0
@@ -70,7 +70,7 @@ class WCDetailedCategory {
 		global $woocommerce;		
 		
 		// Define version constant
-		define( 'WOOCOMMERCE_DETAILED_CAT_VERSION', $this->version );
+		define( 'WOOCOMMERCE_VERSION', $this->version );
 
 		// Include required files
 		$this->includes();
